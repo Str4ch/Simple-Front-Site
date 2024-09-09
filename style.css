@@ -1,49 +1,54 @@
 * {
-	box-sizing: border-box;
-   
+    box-sizing: border-box;
+
 }
+
 @font-face {
     font-family: VCR;
-    src:url('Assets/VCR_OSD_MONO_1.001.ttf') format('truetype');
+    src: url('Assets/VCR_OSD_MONO_1.001.ttf') format('truetype');
 }
+
 body {
-	font-family: VCR;
+    font-family: VCR;
     background-color: black;
 }
+
 .navigationBar {
-	min-height: 470px;
-	margin: auto;
+    min-height: 470px;
+    margin: auto;
 }
+
 .navigationBar>nav {
-	display: flex;
+    display: flex;
     justify-content: space-between;
-	background-color: grey;
+    background-color: grey;
+    align-items: center;
 }
+
 .navigationBar nav ul {
-	display: flex;
-	list-style-type: none;
-	margin: 0;
-	gap: 1em;
-    position: fixed; 
-    padding-left: 100px;
-    padding-top: 20px;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    gap: 1em;
 }
 
 .navigationBar a {
-	color:red;
-	text-decoration: none;
+    color: red;
+    text-decoration: none;
 }
 
 .navigationBar a:hover {
-	color: darkred;
+    color: darkred;
 }
-.main{
+
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.main div{
+
+.main div {
     color: white;
     width: 200px;
-    height:200px;
+    height: 200px;
 }
